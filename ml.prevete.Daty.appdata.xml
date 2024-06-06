@@ -3,7 +3,7 @@
   <id>ml.prevete.Daty</id>
   <launchable type="desktop-id">ml.prevete.Daty.desktop</launchable>
   <name>Daty</name>
-  <summary>Free Wikidata editor.</summary>
+  <summary>Free Wikidata editor</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0</project_license>
   <description>
@@ -18,9 +18,9 @@
     </p>
   </description>
   <url type="homepage">https://gitlab.gnome.org/World/Daty/</url>
-  <url type="help">http://daty.prevete.ml</url>
   <url type="bugtracker">https://gitlab.gnome.org/World/Daty/issues</url>
-  <url type="donation">http://patreon.com/tallero</url>
+  <url type="vcs-browser">https://gitlab.gnome.org/World/Daty/</url>
+  <url type="donation">https://patreon.com/tallero</url>
   <screenshots>
     <screenshot type="default">
       <image>https://gitlab.gnome.org/World/Daty/raw/master/screenshots/editor.png</image>
@@ -75,7 +75,7 @@
       </description>
     </release>
   </releases>
-  <content_rating type="oars-1.0"/>
+  <content_rating type="oars-1.1"/>
   <developer_name>Pellegrino Prevete</developer_name>
   <update_contact>pellegrinoprevete@gmail.com</update_contact>
   <kudos>
