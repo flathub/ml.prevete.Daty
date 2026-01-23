@@ -6,7 +6,7 @@ Daty is a free Wikidata editor adhering to GNOME Human Interface Guidelines, int
 
 Use Daty to search, select, read, batch edit items, script actions, share, visualize proposed changes and bots.
 
-WARNING: This is a preview release, so entities editing is disabled.
+WARNING: This is a preview release, so entity editing is disabled.
 
 ---
 
@@ -26,6 +26,3 @@ git clone git@github.com:flathub/ml.prevete.Daty.git
 flatpak run org.flatpak.Builder build-dir --user --ccache --force-clean --install ml.prevete.Daty.json
 ```
 
----
-
-**Technologies**: GNOME, GTK3, Libhandy, Python
