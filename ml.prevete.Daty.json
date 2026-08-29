@@ -37,8 +37,8 @@
             "name" : "daty",
             "buildsystem" : "simple",
             "build-commands": [
-                "echo \"PATH: '${PATH}',\nFLATPAK_DEST: '${FLATPAK_DEST}'\"",
-                "python setup.py install --root='${FLATPAK_DEST}' --prefix='/app' --optimize=1",
+                "echo \"PATH: ${PATH},\nFLATPAK_DEST: ${FLATPAK_DEST}\"",
+                "python setup.py install --root=/ --prefix=/app --optimize=1",
                 "install -Dm644 ml.prevete.Daty.appdata.xml /app/share/metainfo/ml.prevete.Daty.appdata.xml"
             ],
             "sources" : [
