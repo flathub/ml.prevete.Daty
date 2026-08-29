@@ -38,7 +38,7 @@
             "buildsystem" : "simple",
             "build-commands": [
                 "pip3 install setuptools",
-                "python setup.py install --root=${FLATPAK_DEST} --optimize=1",
+                "python setup.py install --root='${FLATPAK_DEST}' --prefix='/' --optimize=1",
                 "install -Dm644 ml.prevete.Daty.appdata.xml /app/share/metainfo/ml.prevete.Daty.appdata.xml"
             ],
             "sources" : [
